@@ -68,10 +68,12 @@ Kstrap has no servers of its own and collects no data. It only talks to:
 
 | Service | When | What it sends |
 |---|---|---|
-| **Roblox** (roblox.com, rbxcdn.com APIs) | Installing Roblox, signing in, opening games, outfits, avatars, game names | What any Roblox client sends; your login only goes to Roblox |
+| **Roblox** (`*.roblox.com` APIs, `*.rbxcdn.com` downloads and images, and Roblox's `s3.amazonaws.com/setup.roblox.com` mirror) | Installing Roblox, signing in, opening games, outfits, avatars, game names | What any Roblox client sends; your login only goes to Roblox |
+| **roblox.com sign-in page** | Only in the *Sign in with an account* window | It's Roblox's own website, loaded in a browser window (Microsoft Edge WebView2) |
 | **apis.rovalra.com** | When a profile has a preferred server region, or an AI asks for a server list through the MCP | Nothing personal: it downloads the public list of Roblox datacenter locations |
 | **ipinfo.io** | When the region fallback is set to *Nearest*, or an AI asks for a server list through the MCP | Your IP address, to estimate which server is closest to you |
 | **GitHub** | Every 4 hours while Kstrap is open, to check for updates | Nothing but the request for the latest release |
+| **ko-fi.com** | Only if you click *Support on Ko-fi* | Opens in your browser |
 
 Stored only on your PC, in `%LocalAppData%\Kstrap`: profiles, your accounts (encrypted and protected by Windows Hello), play time,
 a cache of game names, and a log of launch steps and errors (`logs\kstrap.log`) with login cookies and tickets removed.
