@@ -69,8 +69,8 @@ Kstrap has no servers of its own and collects no data. It only talks to:
 | Service | When | What it sends |
 |---|---|---|
 | **Roblox** (roblox.com, rbxcdn.com APIs) | Installing Roblox, signing in, opening games, outfits, avatars, game names | What any Roblox client sends; your login only goes to Roblox |
-| **apis.rovalra.com** | When a profile has a preferred server region | Nothing personal: it downloads the public list of Roblox datacenter locations |
-| **ipinfo.io** | Only when the region fallback is set to *Nearest* | Your IP address, to estimate which server is closest to you |
+| **apis.rovalra.com** | When a profile has a preferred server region, or an AI asks for a server list through the MCP | Nothing personal: it downloads the public list of Roblox datacenter locations |
+| **ipinfo.io** | When the region fallback is set to *Nearest*, or an AI asks for a server list through the MCP | Your IP address, to estimate which server is closest to you |
 | **GitHub** | Every 4 hours while Kstrap is open, to check for updates | Nothing but the request for the latest release |
 
 Stored only on your PC, in `%LocalAppData%\Kstrap`: profiles, your accounts (encrypted and protected by Windows Hello), play time,
