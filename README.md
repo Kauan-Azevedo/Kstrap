@@ -62,6 +62,26 @@ Only when a profile has an outfit set: that outfit is worn before the game opens
 **How do I switch the language?**
 *About → Language*. The first time, Kstrap follows your Windows language.
 
+## Privacy and what Kstrap connects to
+
+Kstrap has no servers of its own and collects no data. It only talks to:
+
+| Service | When | What it sends |
+|---|---|---|
+| **Roblox** (roblox.com, rbxcdn.com APIs) | Installing Roblox, signing in, opening games, outfits, avatars, game names | What any Roblox client sends; your login only goes to Roblox |
+| **apis.rovalra.com** | When a profile has a preferred server region | Nothing personal: it downloads the public list of Roblox datacenter locations |
+| **ipinfo.io** | Only when the region fallback is set to *Nearest* | Your IP address, to estimate which server is closest to you |
+| **GitHub** | Every 4 hours while Kstrap is open, to check for updates | Nothing but the request for the latest release |
+
+Stored only on your PC, in `%LocalAppData%\Kstrap`: profiles, your accounts (encrypted and protected by Windows Hello), play time,
+a cache of game names, and a log of launch steps and errors (`logs\kstrap.log`) with login cookies and tickets removed.
+
+The **local API** (About › Local API) listens only on `localhost`, so nothing outside your PC can reach it, and you can turn it off.
+The **AI integration (MCP)** does nothing until you add it to an AI tool yourself (About › AI integration). It runs only while that tool
+is open and talks to it through a local pipe.
+
+See [CHANGELOG.md](CHANGELOG.md) for what changed in each version.
+
 ## Support
 
 Kstrap is free. If it made your Roblox life easier, you can buy me a coffee:
