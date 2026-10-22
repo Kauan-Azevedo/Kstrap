@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.0.3 — 2026-10-22
+
+### Fixed
+- After updating from 1.0.1 to 1.0.2, the "what changed" notice never appeared. Updating from any older version now shows it.
+- Release notes no longer show stray `*` marks.
+
+### Added
+- **About › What's new in this version** opens the notes of the version you're running, any time.
+- Release notes now come in English and Portuguese; Kstrap shows the one in its language.
+- The notes dialog links to the full changelog, so if you skipped a version you can see everything you missed.
+
+**Português (pt-BR)**
+
+### Corrigido
+- Depois de atualizar da 1.0.1 pra 1.0.2, o aviso "o que mudou" não aparecia. Agora aparece ao atualizar de qualquer versão anterior.
+- As notas de versão não mostram mais asteriscos soltos.
+
+### Adicionado
+- **Sobre › O que mudou nesta versão** abre as notas da versão que você está usando, a qualquer hora.
+- As notas de versão agora vêm em inglês e português; o Kstrap mostra a do idioma dele.
+- O diálogo das notas tem link pro histórico completo, então quem pulou uma versão vê tudo o que perdeu.
+
 ## 1.0.2 — 2026-10-21
 
 ### Added
