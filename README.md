@@ -27,7 +27,7 @@ English · Português (Brasil) inside the app
 - **Preferred server region** (e.g. São Paulo or Miami), picked automatically when a game opens without a chosen server.
 - **Auto-rejoin** when Roblox disconnects you for idling or a dropped connection.
 - **Ready-made templates**: ⚡ Performance, ⚖️ Balanced and ✨ Quality.
-- **Safe accounts.** Logins are encrypted on your PC and protected by Windows Hello (PIN, fingerprint or face), asked once per session.
+- **Accounts stay on your PC.** Logins are encrypted by Windows for your Windows user, with no PIN to type: other users of the PC and copies of the files can't open them (programs running as you could, as with any launcher that saves logins).
 - **Stays out of the way.** Lives next to the clock, can start with Windows, and updates itself.
 
 <div align="center">
@@ -75,7 +75,7 @@ Kstrap has no servers of its own and collects no data. It only talks to:
 | **GitHub** | Every 4 hours while Kstrap is open, to check for updates | Nothing but the request for the latest release |
 | **ko-fi.com** | Only if you click *Support on Ko-fi* | Opens in your browser |
 
-Stored only on your PC, in `%LocalAppData%\Kstrap`: profiles, your accounts (encrypted and protected by Windows Hello), play time,
+Stored only on your PC, in `%LocalAppData%\Kstrap`: profiles, your accounts (encrypted by Windows for your Windows user), play time,
 a cache of game names, and a log of launch steps and errors (`logs\kstrap.log`) with login cookies and tickets removed.
 
 The **local API** (About › Local API) listens only on `localhost`, so nothing outside your PC can reach it, and you can turn it off.
