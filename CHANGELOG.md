@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.0.5 — 2026-10-22
+
+### Changed
+- **No more PIN.** Kstrap no longer uses Windows Hello. Your saved accounts are encrypted by Windows for your Windows user: other users of the PC and copies of the files can't open them, but programs running as you could, as with any launcher that saves logins. If your accounts were saved under the PIN, Kstrap asks for it **one last time** to move them, then never again.
+- **Faster game launch with a preferred server region.** The region search used to run up to 7 seconds and then pick nothing. It now gives up within 3 seconds, stops at the first open server it finds in your region, runs while the rest of the launch is prepared, and writes in the log why when it picks nothing.
+- Browser links no longer look up the profile's outfits online before handing the launch to the open Kstrap window.
+
+### Added
+- **Start in 3 steps** for new users: add an account, create a profile for it, and make the website's Play button open through Kstrap. Close it with × if you don't need it.
+- **Delete profile** is now in the profile's right-click menu in the sidebar and as a bin icon on the profile page (it was hidden at the bottom of Advanced). A profile that is playing can't be deleted until its Roblox closes.
+- After 10 hours of play through Kstrap, the footer asks once whether you'd like to support it on Ko-fi. Close it and it never comes back.
+
+**Português (pt-BR)**
+
+### Mudou
+- **Sem PIN.** O Kstrap não usa mais o Windows Hello. Suas contas salvas ficam criptografadas pelo Windows pro seu usuário: outros usuários do PC e cópias dos arquivos não conseguem abrir, mas programas rodando como você conseguiriam, como em qualquer launcher que salva login. Se suas contas estavam salvas com PIN, o Kstrap pede ele **uma última vez** pra passar elas pro novo formato, e nunca mais.
+- **Jogo abre mais rápido com região de servidor preferida.** A busca de região levava até 7 segundos e não escolhia nada. Agora ela desiste em até 3 segundos, para no primeiro servidor livre que achar na sua região, roda enquanto o resto do lançamento é preparado e escreve no log o motivo quando não escolhe nenhum.
+- Links do navegador não buscam mais as roupas do perfil na internet antes de passar o lançamento pra janela do Kstrap aberta.
+
+### Adicionado
+- **Comece em 3 passos** pra quem é novo: adicionar uma conta, criar um perfil pra ela e fazer o Jogar do site abrir pelo Kstrap. Feche no × se não precisar.
+- **Excluir perfil** agora fica no menu do botão direito do perfil na barra lateral e num ícone de lixeira na página do perfil (estava escondido no fim de Avançado). Um perfil que está jogando só pode ser excluído depois que o Roblox dele fechar.
+- Depois de 10 horas de jogo pelo Kstrap, o rodapé pergunta uma vez se você quer apoiar no Ko-fi. Fechou, não volta.
+
 ## 1.0.4 — 2026-10-22
 
 ### Added
