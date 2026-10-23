@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.4 — 2026-10-22
+
+### Added
+- **About › AI integration** now has an on/off switch. Off: AI tools can't start Kstrap's AI integration, and a session that was already open answers "turned off" once and then closes, so nothing of Kstrap's keeps running for it. On by default.
+- *Copy AI instructions* is disabled while the switch is off.
+
+**Português (pt-BR)**
+
+### Adicionado
+- **Sobre › Integração com IA** agora tem um botão de ligar/desligar. Desligada: as ferramentas de IA não conseguem iniciar a integração do Kstrap, e uma sessão que já estava aberta responde "desligada" uma vez e fecha, então nada do Kstrap fica rodando pra ela. Vem ligada.
+- *Copiar instruções pra IA* fica desativado enquanto ela está desligada.
+
 ## 1.0.3 — 2026-10-22
 
 ### Fixed
