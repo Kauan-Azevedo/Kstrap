@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.0.6 — 2026-11-15
+
+### Fixed
+- **Kstrap no longer fails to open when Windows can't read your saved logins.** This happens after the Windows password is reset (not changed): Windows starts using new encryption keys and anything saved before can't be opened, by Kstrap or other programs. Kstrap now keeps the old files in `Accounts\unreadable-…` (nothing is deleted), opens normally, and tells you in Contas to sign in to your accounts again. Your profiles keep all their settings.
+- Missing Portuguese text on the Contas page.
+- The setup guide now shows the next step and progress, explains how to start a game, and can be reopened while setup is unfinished.
+- Friend-follow and private-server links show the game name when Roblox includes a place ID. Kstrap still passes the original link through to Roblox.
+- Browser launches now honor your remembered profile and start without waiting for optional game names or cover images to load.
+
+**Português (pt-BR)**
+
+### Corrigido
+- **O Kstrap não deixa mais de abrir quando o Windows não consegue ler seus logins salvos.** Isso acontece quando a senha do Windows é redefinida (não trocada): o Windows passa a usar chaves de criptografia novas e nada salvo antes abre, nem no Kstrap nem em outros programas. Agora o Kstrap guarda os arquivos antigos em `Accounts\unreadable-…` (nada é apagado), abre normalmente e avisa em Contas pra você entrar nas suas contas de novo. Os perfis continuam com todas as configurações.
+- Texto que faltava em português na página Contas.
+- O guia mostra o próximo passo, o progresso e como iniciar um jogo; dá para reabri-lo enquanto a configuração não terminar.
+- Links para seguir amigos e servidores privados mostram o nome do jogo quando o Roblox inclui um `placeId`. Kstrap continua enviando o link original ao Roblox.
+- Ao abrir jogos pelo navegador, Kstrap respeita o perfil lembrado e inicia sem esperar o carregamento opcional de nomes e capas.
+
 ## 1.0.5 — 2026-10-22
 
 ### Changed
