@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.0.7 — 2026-11-16
+
+### Added
+- A new home page with Roblox play history, account and profile choices for the next session, and direct launch from recent games.
+- Optional automatic profiles per experience. A valid game rule takes priority for that game without changing the general next-session profile.
+- Sidebar navigation for Home, Recent games, Profiles, Accounts, Mods, Installation, Settings, and About.
+
+### Fixed
+- Choosing a different account for a launch no longer changes the account saved on its profile.
+- Browser launches now use a valid per-game profile rule before the remembered browser profile and game history.
+
+**Português (pt-BR)**
+
+### Adicionado
+- Nova tela inicial com histórico de jogos do Roblox, seleção de conta e perfil para a próxima sessão e inicialização direta pelos jogos recentes.
+- Perfis automáticos opcionais por experiência. Uma regra válida do jogo tem prioridade para aquela partida sem alterar o perfil geral da próxima sessão.
+- Navegação lateral para Início, Jogos recentes, Perfis, Contas, Mods, Instalação, Configurações e Sobre.
+
+### Corrigido
+- Escolher outra conta para uma partida não altera mais a conta salva no perfil.
+- Ao abrir pelo navegador, uma regra válida por jogo tem prioridade sobre o perfil lembrado do navegador e o histórico do jogo.
+
 ## 1.0.6 — 2026-11-15
 
 ### Fixed
