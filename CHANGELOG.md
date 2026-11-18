@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.9 — 2026-11-18
+
+- Fixed a crash that could prevent the main window from opening after updating.
+- The app checks for updates at startup and every two minutes, and shows when a download starts.
+- The launcher loads secondary pages when opened and reports when the Roblox process starts.
+
+**Português (pt-BR)**
+
+- Corrigida uma falha que podia impedir a abertura da janela principal após atualizar.
+- O app verifica atualizações ao abrir e a cada dois minutos, e avisa quando começa a baixar.
+- O launcher carrega as páginas secundárias sob demanda e avisa quando o processo do Roblox inicia.
+
 ## 1.0.8 — 2026-11-16
 
 ### Added
