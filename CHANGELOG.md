@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.0.10 — 2026-11-20
+
+- Restored readable buttons throughout the dark theme, including the sidebar, home screen, and profile picker.
+- Recent games load without blocking the main window. Kstrap reuses results from unchanged Roblox logs and loads game details and images concurrently.
+- All launcher flows show when Roblox starts. Kstrap now tracks client log updates incrementally and records separate timings for account unlock and launch preparation.
+- Roblox packages are verified as they download. Status monitoring avoids overlapping passes.
+
+**Português (pt-BR)**
+
+- Corrigido o contraste dos botões no tema escuro, incluindo a barra lateral, a tela inicial e o seletor de perfil.
+- A tela inicial carrega o histórico sem travar a janela. O Kstrap reaproveita os resultados de logs que continuam iguais e carrega dados e imagens dos jogos em paralelo.
+- Os fluxos de lançamento avisam assim que o Roblox inicia. O Kstrap acompanha o log do cliente de forma incremental e registra os tempos de desbloqueio da conta e de preparo do jogo separadamente.
+- O Kstrap verifica os pacotes do Roblox durante o download e evita sobrepor ciclos de monitoramento.
+
 ## 1.0.9 — 2026-11-18
 
 - Fixed a crash that could prevent the main window from opening after updating.
